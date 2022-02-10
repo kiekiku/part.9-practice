@@ -65,7 +65,7 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
   header{
     width: 100%;
   }
@@ -77,7 +77,7 @@ footer {
 
   .step-box{
     width: 90%;
-    margin: 0 5% 20px;
+    margin: 0 auto 20px;
   }
 
   .step-box:last-child{
@@ -86,6 +86,7 @@ footer {
 
   .step-img1{
     height: 150px;
+    background-position: center;
   }
 
   .step-img2{
@@ -94,5 +95,6 @@ footer {
 
   .step-img3{
     height: 150px;
+    background-position: center;
   }
 }
